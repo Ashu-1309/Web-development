@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+ <head>
+   <title> Selector </title>
+   <meta charset="utf-8">
+   <style>
+       /*Styling of page   */
+   p{
+       coloor:blue;
+       font-size:20px;
+   }
+   h1{
+       color:Green;
+       text-align:center;
+   }
+   h2{
+       color: red;
+   }
+
+   </style>
+ </head>
+ <body>
+   <h1> Type of selector in CSS </h1>
+   <!-- Defination of Element with class Selector   --> 
+   <h2>Element with class Selector </h2>
+   <p>
+    The element .class selector is used to select the specified element with the the specified class.<br>
+    <br>CSS Syntax Element with class Selector<br>
+    element .class{   <br>
+        css Declaration;<br>
+    }
+
+   </p>
+      <!-- Defination of child Selector   --> 
+   <h2>Child Selector </h2>
+   <p>
+   The child combinator (>)is placed between two CSS Selectors,It matches only those element matched by<br>
+   the second selector that are the direct children of elements matched by the first.Elements matched by<br>
+   the second selectors must be the immediate children of the elements matched by the first selector.<br>
+   <br>CSS Syntax for Child Selector<br>
+    selector1 > Selector2{<br>
+        style properties;<br>
+    }<br>
+    example <br>
+    div > span {<br>
+        background-color: Green;<br>
+    }<br>
+
+   </p>
+      <!-- Defination of Descendent Selector   --> 
+   <h2>Descendent Selector</h2>
+   <p>
+   The descendant selector matches all elements that are descending that are descendants of a specified<br>
+   element i.e all that specified element present inside the selector1 get update.<br>
+   <br>CSS Syntax for Descendent Selector <br><br>
+   selector1 Selector 2 {<br>
+    CSS Declaration<br>
+    } <br>
+    Example<br>
+    div p {
+        color:Green;
+        font-size:20px;
+    }
+
+
+
+   </p>
+
+
+ </body>
+</html>
